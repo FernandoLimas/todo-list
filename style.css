@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #a8c0ff, #3f2b96);
+  min-height: 100vh;
+}
+
+header, form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#container-lista {
+  /* background: linear-gradient(to top, #1c92d2, #f2fcfe);
+  padding: 0.5rem; */
+  margin-top: 1.5rem;
+  max-width: 87vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  color: #F0FFFF;
+  font-size: 2rem;
+  min-height: 20vh;
+}
+
+form input {
+  border-radius: 10px 0 0 10px;
+}
+
+form button {
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  color: #0000FF;
+  transition: all 0.5s ease;
+}
+form button:hover {
+  background-color: #0000FF;
+  color: #F0FFFF;
+}
+
+form input, form button  {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #F0FFFF;
+}
+
+ul li {
+  font-size: 1.5rem;
+  color: #F0FFFF;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content:space-between;
+  margin-bottom: 10px;
+ 
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 5px;
+}
+
+li:hover{
+  transition: all 0.5s  ease;
+  padding: 5px;
+  background-color: rgba(221, 23, 23, 0.103);
+}
+
+input[type="checkbox"] {
+  width: 2.0rem;
+  height: 2.0rem;
+  cursor: pointer;
+}
+/* Troca li/checkbox por checkbox/li. css:(ul li/direction:rtl) */
