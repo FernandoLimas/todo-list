@@ -59,6 +59,7 @@ ol li {
   color: #F0FFFF;
   margin-bottom: 10px;
   padding: 5px;
+  cursor: pointer;
 }
 
 li {
@@ -95,3 +96,4 @@ li:hover{
 .card h2{
   margin-bottom: 20px;
 }
+
