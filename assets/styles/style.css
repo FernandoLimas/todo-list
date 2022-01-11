@@ -54,15 +54,11 @@ form input, form button  {
   background-color: #F0FFFF;
 }
 
-ul li {
+ol li {
   font-size: 1.5rem;
   color: #F0FFFF;
-  display: flex;
-  align-items:center;
-  text-align: center;
-  justify-content:space-between;
   margin-bottom: 10px;
- 
+  padding: 5px;
 }
 
 li {
@@ -72,13 +68,30 @@ li {
 
 li:hover{
   transition: all 0.5s  ease;
-  padding: 5px;
-  background-color: rgba(221, 23, 23, 0.103);
+  padding: 10px;
+  /* background-color: rgba(34, 4, 4, 0.103); */
 }
 
-input[type="checkbox"] {
-  width: 2.0rem;
-  height: 2.0rem;
-  cursor: pointer;
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+  background-color: rgb(184, 157, 6);
+  
 }
-/* Troca li/checkbox por checkbox/li. css:(ul li/direction:rtl) */
+
+.card{
+  width: 280px;
+  height: 300px;
+  background-color: #0000ff48;
+  border-radius: 10px;
+  color: beige;
+
+  padding: 20px;
+
+  position: absolute;
+  left: 1030px;
+  bottom: 180px;
+}
+
+.card h2{
+  margin-bottom: 20px;
+}
